@@ -1,0 +1,16 @@
+spring_profiles_active=prod
+PROD_DB_HOST=containers-us-west-209.railway.app
+PROD_DB_PORT=5546
+PROD_DB_NAME=railway
+PROD_DB_PASSWORD=d33Wem77UCbWpM5jbxps
+PROD_DB_USERNAME=postgres
+spring:
+  datasource:
+    url: jdbc:postgresql://${PROD_DB_HOST}:${PROD_DB_PORT}/${PROD_DB_NAME}
+    username: ${PROD_DB_USERNAME}
+    password: ${PROD_DB_PASSWORD}
+    name: spring-blog
+
+  sql:
+    init:
+      mode: always # you won't do this in prod, I'm just doing this for demo purposes

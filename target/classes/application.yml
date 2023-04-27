@@ -1,0 +1,10 @@
+spring:
+  jpa:
+    database: POSTGRESQL
+    hibernate.ddl-auto: update
+    show-sql: true
+  datasource:
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://dpg-ch5b4npjvhts7knbdbsg-a.oregon-postgres.render.com:5432/mydb_rowu
+    username: mydb_rowu_user
+    password: zeUX2vkbbzcQ5AucOw4Ia560GuxDPLUm

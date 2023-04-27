@@ -1,0 +1,10 @@
+com\example\templateproject\security\WebSecurity.class
+com\example\templateproject\Service.class
+com\example\templateproject\Controller.class
+com\example\templateproject\Entity.class
+com\example\templateproject\Controller2.class
+com\example\templateproject\security\ApplicationConfig.class
+com\example\templateproject\Repository.class
+com\example\templateproject\security\JwtService.class
+com\example\templateproject\TemplateProjectApplication.class
+com\example\templateproject\security\JwtAuthenticationFilter.class
